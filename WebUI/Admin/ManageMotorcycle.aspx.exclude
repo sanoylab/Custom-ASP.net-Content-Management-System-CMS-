@@ -1,0 +1,113 @@
+﻿<%@ Page Title="Addis Tower Business Center-Manage Motorcycle" Language="C#" MasterPageFile="~/MasterPages/AdminAddis.master"
+    AutoEventWireup="true" CodeFile="ManageMotorcycle.aspx.cs" Inherits="Admin_ManageMotorcycle" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <dxwgv:ASPxGridView ID="gvwMotorcycleCategories" runat="server" AutoGenerateColumns="False"
+        DataSourceID="objAllMotorcyclesCategory" KeyFieldName="Id" Width="100%" ToolTip="Motor Cycel Categories"
+        CssFilePath="~/App_Themes/Glass/{0}/styles.css" CssPostfix="Glass">
+        <Columns>
+            <dxwgv:GridViewCommandColumn VisibleIndex="0">
+                <EditButton Visible="True">
+                </EditButton>
+                <ClearFilterButton Visible="True">
+                </ClearFilterButton>
+                <NewButton Visible="true">
+                </NewButton>
+            </dxwgv:GridViewCommandColumn>
+            <dxwgv:GridViewDataTextColumn FieldName="Id" Visible="false" VisibleIndex="1">
+            </dxwgv:GridViewDataTextColumn>
+            <dxwgv:GridViewDataTextColumn FieldName="Name" VisibleIndex="2">
+            </dxwgv:GridViewDataTextColumn>
+            <dxwgv:GridViewDataTextColumn FieldName="Remark" VisibleIndex="3">
+            </dxwgv:GridViewDataTextColumn>
+        </Columns>
+        <SettingsText Title="Motorcycle Categories" EmptyDataRow="There are no registered motorcycle categories" />
+        <SettingsDetail ShowDetailRow="True" />
+        <SettingsCustomizationWindow Enabled="True" />
+        <Images ImageFolder="~/App_Themes/Glass/{0}/">
+            <PopupEditFormWindowClose Height="17px" Width="17px" />
+        </Images>
+        <Settings ShowFilterRow="True" ShowGroupPanel="True" ShowFooter="True" ShowGroupFooter="VisibleIfExpanded"
+            ShowTitlePanel="True" />
+        <Styles CssFilePath="~/App_Themes/Glass/{0}/styles.css" CssPostfix="Glass">
+            <Header ImageSpacing="5px" SortingImageSpacing="5px">
+            </Header>
+        </Styles>
+        <SettingsBehavior AllowFocusedRow="True" ProcessFocusedRowChangedOnServer="True" />
+        <Templates>
+            <DetailRow>
+                <div style="padding: 3px 3px 2px 3px">
+                    <dxtc:ASPxPageControl ID="ASPxPageControl1" runat="server" ActiveTabIndex="0">
+                        <TabPages>
+                            <dxtc:TabPage Text="Motor Cycles">
+                                <Controls>
+                                    <dxwgv:ASPxGridView ID="gvwMotorcycles" runat="server" AutoGenerateColumns="False"
+                                        DataSourceID="objMotorcyclesByCategory" KeyFieldName="Id" Width="100%" CssFilePath="~/App_Themes/Glass/{0}/styles.css"
+                                        CssPostfix="Glass" OnBeforePerformDataSelect="gvwMotorcycles_BeforePerformDataSelect">
+                                        <Columns>
+                                            <dxwgv:GridViewCommandColumn VisibleIndex="0">
+                                                <ClearFilterButton Visible="True">
+                                                </ClearFilterButton>
+                                                <EditButton Visible="True">
+                                                </EditButton>
+                                                <NewButton Visible="True">
+                                                </NewButton>
+                                            </dxwgv:GridViewCommandColumn>
+                                            <dxwgv:GridViewDataTextColumn FieldName="Number" VisibleIndex="1">
+                                            </dxwgv:GridViewDataTextColumn>
+                                            <dxwgv:GridViewDataTextColumn FieldName="Name" VisibleIndex="2">
+                                            </dxwgv:GridViewDataTextColumn>
+                                            <dxwgv:GridViewDataTextColumn FieldName="Model" VisibleIndex="3">
+                                            </dxwgv:GridViewDataTextColumn>
+                                            <dxwgv:GridViewDataTextColumn FieldName="Quantity" VisibleIndex="4">
+                                            </dxwgv:GridViewDataTextColumn>
+                                            <dxwgv:GridViewDataCheckColumn FieldName="Approve" VisibleIndex="5">
+                                            </dxwgv:GridViewDataCheckColumn>
+                                            <dxwgv:GridViewDataTextColumn FieldName="Description" VisibleIndex="6">
+                                            </dxwgv:GridViewDataTextColumn>
+                                        </Columns>
+                                    </dxwgv:ASPxGridView>
+                                </Controls>
+                            </dxtc:TabPage>
+                        </TabPages>
+                    </dxtc:ASPxPageControl>
+                </div>
+            </DetailRow>
+        </Templates>
+    </dxwgv:ASPxGridView>
+    <asp:ObjectDataSource ID="objAllMotorcyclesCategory" runat="server" TypeName="BusinessEntitySearch.MotorcycleCategory"
+        SelectMethod="PopulateAllMotorcycleCategoy" InsertMethod="InsertMotorcycleCategory">
+        <InsertParameters>
+            <asp:Parameter Name="Name" Type="String" />
+            <asp:Parameter Name="Remark" Type="String" />
+        </InsertParameters>
+    </asp:ObjectDataSource>
+    <asp:ObjectDataSource ID="objMotorcyclesByCategory" runat="server" TypeName="BusinessEntitySearch.Motorcycle"
+        SelectMethod="PopulateAllMotorcycleByCategoryId" InsertMethod="InsertNewMotorcycle"
+        UpdateMethod="UpdateMotorcycle">
+        <SelectParameters>
+            <asp:SessionParameter Name="CategoryId" SessionField="CategoryId" Type="Object" />
+        </SelectParameters>
+        <InsertParameters>
+            <asp:SessionParameter Name="CategoryId" SessionField="CategoryId" Type="Object" />
+            <asp:Parameter Name="Number" Type="String" />
+            <asp:Parameter Name="Name" Type="String" />
+            <asp:Parameter Name="Model" Type="String" />
+            <asp:Parameter Name="Approve" Type="Boolean" />
+            <asp:Parameter Name="Description" Type="String" />
+            <asp:Parameter Name="Quantity" Type="Double" />
+        </InsertParameters>
+        <UpdateParameters>
+            <asp:Parameter Name="Id" Type="Object" />
+            <asp:Parameter Name="Number" Type="String" />
+            <asp:Parameter Name="Name" Type="String" />
+            <asp:Parameter Name="Model" Type="String" />
+            <asp:Parameter Name="Approve" Type="Boolean" />
+            <asp:Parameter Name="Description" Type="String" />
+            <asp:Parameter Name="Quantity" Type="Double" />
+        </UpdateParameters>
+    </asp:ObjectDataSource>
+</asp:Content>

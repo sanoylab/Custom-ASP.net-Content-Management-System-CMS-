@@ -1,0 +1,91 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="0" />
+      <Item value="Sanoy.AddisTower" priority="0" />
+      <Item value="DA" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Pages/f:PhotoGallery.aspx" caret="819" fromTop="12" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="5515" fromTop="12" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:AdminDefault.aspx" caret="71" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:CommonPage.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ContactUs.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Downloads.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:FAQ.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Home.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:imageUploder.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:links.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:News.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:PhotoGallery.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:PhotoGalleryCatagory.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:SiteMap.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:UserManager.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:CommonPage.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ContactUs.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Default.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Downloads.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:FAQ.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Home.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:imageUploder.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:links.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:News.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:PhotoGallery.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:PhotoGalleryCatagory.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:SiteMap.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:UserManager.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Default.aspx" caret="456" fromTop="8" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:MasterPages/f:Copy of Addis.master" caret="737" fromTop="18" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="5515" fromTop="12" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:CommonPage.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ContactUs.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Downloads.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:FAQ.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Home.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:imageUploder.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:links.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:News.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:PhotoGallery.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:PhotoGalleryCatagory.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:SiteMap.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:UserManager.aspx" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:CommonPage.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ContactUs.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Default.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Downloads.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:FAQ.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Home.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:imageUploder.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:links.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:News.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:PhotoGallery.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:PhotoGalleryCatagory.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:SiteMap.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:AdminDefault.aspx" caret="71" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:UserManager.aspx.cs" caret="0" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Default.aspx" caret="66" fromTop="0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:MasterPages/f:Copy of Addis.master" caret="680" fromTop="12" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:MasterPages/f:Copy of Addis.master" caret="735" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>

@@ -1,0 +1,179 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminAddis.master.cs" Inherits="MasterPages_Addis" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+
+/*** set the width and height to match your ../images **/
+
+#slideshow {
+    position:relative;
+    height:198px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+    .style2
+    {
+        height: 28px;
+    }
+
+    </style>
+<script type="text/javascript" src="../Javascripts/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="../Rotator/imageflow.packed.js"></script>
+<script type="text/javascript">
+
+/*** 
+    Simple jQuery Slideshow Script
+    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+***/
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the ../images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the ../images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div>
+        <h1 style="text-align: center">Administration Control Panel</h1>
+         <div style="text-align: center">     Welcome <asp:Literal ID="litWelcome" runat="server"></asp:Literal>
+        <asp:LinkButton ID="likLogout" runat="server" Text="Logout" 
+                onclick="likLogout_Click"></asp:LinkButton></div>  
+    <table  border="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td width="774">
+    <table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="208" valign="top" class="style2">
+	    <table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td height="89" width="205" align="center" style="background: #1D1D1D"><span class="style1">
+                        ADDIS TOWER BUSINESS CENTER</span></td>
+				</tr>
+				<tr>
+					<td  align="center">
+					<div id="lmenu">
+						<div id="lmenu_items">
+                            <a href="../Admin/Home.aspx">Home</a> <a href="../Admin/CommonPage.aspx?Id=1">
+                            About Us</a>
+                            <a href="../Admin/CommonPage.aspx?Id=2">Our Services</a>
+                            <a href="../Admin/CommonPage.aspx?Id=3">Motorcycle</a>
+                             <a href="../Admin/CommonPage.aspx?Id=4">Spareparts</a>
+                            <a href="../Admin/ContactUs.aspx">Contact Us</a> <a href="../Admin/Downloads.aspx?Id=1">
+                            Downloads</a> <a href="../Admin/FAQ.aspx">FAQ</a>
+                            <a href="../Admin/ManageSpareparts.aspx">Manage Spareparts</a>
+                            <a href="../Admin/SiteMap.aspx">Sitemap</a> <a href="../Admin/News.aspx">News</a><a 
+                                href="../Admin/PhotoGallery.aspx?Id=1">Photo Gallery</a>
+                            <a href="../Admin/imageUploder.aspx">File Uploader</a>
+                            <a href="../Admin/UserManager.aspx">User Manager</a>
+                        </div>
+                        </div>
+					</td>
+				</tr>
+				<tr><td>&nbsp;</td></tr>
+			</table>
+		</td>
+		<td width="1" style="background: #DBDBDB" class="style2"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+		<td class="style2" valign="top">
+			
+			<table width="98%" align="center">
+		<tr><td></td></tr>
+		<tr><td>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </td></tr>
+		<tr><td>
+            &nbsp;</td></tr>
+		</table>
+			
+			
+		</td>
+	</tr>
+	
+	<tr>
+		<td style="background: #242424">&nbsp;</td>
+		<td style="background: #DBDBDB"> <img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+		<td>
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr><td style="background: #E5E5E5"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td></tr>
+			   	<tr>
+			   		<td height="24"><img src="../images/spacer.gif" width="13" height="1" border="0" alt=""><img src="../images/ico1.gif" width="19" height="19" border="0" alt=""></td>
+			   	</tr>
+				<tr><td style="background: #E5E5E5"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td></tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" style="background: #A0A0A0"><img src="../images/spacer.gif" width="1" height="13" border="0" alt=""></td> 	</tr> 	<tr> 		<td align="center" height="65">
+                                &nbsp;</td> 		<td style="background: #DBDBDB">&nbsp;</td> 		<td>			&nbsp;</td>
+	</tr>
+</table>
+
+    
+    </td>
+  </tr>
+</table>
+    
+    </div>
+    </div>
+    </form>
+</body>
+</html>

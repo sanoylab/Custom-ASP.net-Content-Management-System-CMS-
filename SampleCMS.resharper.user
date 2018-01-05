@@ -1,0 +1,247 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="6" />
+      <Item value="void" priority="5" />
+      <Item value="DataAccessSearch" priority="13" />
+      <Item value="Motorcycle" priority="9" />
+      <Item value="context" priority="16" />
+      <Item value="motorCycleEntity" priority="0" />
+      <Item value="Sparepart" priority="10" />
+      <Item value="Session" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="Guid" priority="6" />
+      <Item value="where" priority="4" />
+      <Item value="p" priority="8" />
+      <Item value="categoryId" priority="0" />
+      <Item value="MotorcycleCategory" priority="2" />
+      <Item value="motorcycleCategory" priority="1" />
+      <Item value="new" priority="10" />
+      <Item value="Id" priority="5" />
+      <Item value="Name" priority="8" />
+      <Item value="Remark" priority="3" />
+      <Item value="AddisTowerDataContext" priority="2" />
+      <Item value="bool" priority="0" />
+      <Item value="StringComparer" priority="0" />
+      <Item value="string" priority="5" />
+      <Item value="motorcycle" priority="5" />
+      <Item value="Approve" priority="7" />
+      <Item value="CategoryId" priority="3" />
+      <Item value="Description" priority="4" />
+      <Item value="Model" priority="4" />
+      <Item value="Number" priority="4" />
+      <Item value="Quantity" priority="5" />
+      <Item value="var" priority="6" />
+      <Item value="double" priority="0" />
+      <Item value="from" priority="4" />
+      <Item value="true" priority="8" />
+      <Item value="select" priority="3" />
+      <Item value="selectedApproved" priority="2" />
+      <Item value="false" priority="3" />
+      <Item value="if" priority="7" />
+      <Item value="UnApproveSelected" priority="2" />
+      <Item value="SparepartCategory" priority="1" />
+      <Item value="sparepartCategory" priority="0" />
+      <Item value="sparepartCategoryEntity" priority="0" />
+      <Item value="sparepart" priority="8" />
+      <Item value="null" priority="1" />
+      <Item value="selectedSparepart" priority="0" />
+      <Item value="panUploadMotorImage" priority="0" />
+      <Item value="panUploadSpareImage" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="i" priority="2" />
+      <Item value="allowedExtension" priority="0" />
+      <Item value="Count" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="imgMotor" priority="6" />
+      <Item value="HasAllowedExtension" priority="0" />
+      <Item value="CreateDirectory" priority="1" />
+      <Item value="ItemImage" priority="4" />
+      <Item value="itemImage" priority="3" />
+      <Item value="itemImageEntity" priority="0" />
+      <Item value="BusinessEntitySearch" priority="2" />
+      <Item value="itemImageData" priority="1" />
+      <Item value="ImageFileName" priority="0" />
+      <Item value="ImageUrl" priority="0" />
+      <Item value="MotorOrSpareId" priority="0" />
+      <Item value="ddlMotorModel" priority="1" />
+      <Item value="motorImage" priority="0" />
+      <Item value="imgSprepart" priority="5" />
+      <Item value="fileUrl" priority="0" />
+      <Item value="ddlSparepart" priority="1" />
+      <Item value="imgPreview" priority="1" />
+      <Item value="Server" priority="0" />
+      <Item value="return" priority="2" />
+      <Item value="approvedMotor" priority="0" />
+      <Item value="GetApprovedMotor" priority="0" />
+      <Item value="selectedMotor" priority="0" />
+      <Item value="motorCycle" priority="3" />
+      <Item value="litMotorName" priority="0" />
+      <Item value="litDescription" priority="0" />
+      <Item value="imgSparepart" priority="0" />
+      <Item value="sparePart" priority="3" />
+      <Item value="litSparepart" priority="0" />
+      <Item value="litSpareDescription" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessSearch.AddisTowerDataContext">
+      <Item value="Motorcycles" priority="3" />
+      <Item value="SubmitChanges" priority="5" />
+      <Item value="Spareparts" priority="6" />
+      <Item value="MotorcycleCategories" priority="0" />
+      <Item value="SparepartCategories" priority="0" />
+      <Item value="ItemImages" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="InsertOnSubmit" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessSearch.Motorcycle">
+      <Item value="CategoryId" priority="0" />
+      <Item value="Approve" priority="2" />
+      <Item value="Id" priority="0" />
+      <Item value="Model" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="First" priority="3" />
+      <Item value="Count" priority="0" />
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessSearch.Sparepart">
+      <Item value="Id" priority="0" />
+      <Item value="Number" priority="0" />
+      <Item value="Name" priority="2" />
+      <Item value="Model" priority="0" />
+      <Item value="Approve" priority="0" />
+      <Item value="Description" priority="1" />
+      <Item value="Quantity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FileUpload">
+      <Item value="HasFile" priority="0" />
+      <Item value="PostedFile" priority="4" />
+      <Item value="FileName" priority="1" />
+      <Item value="FileContent" priority="1" />
+      <Item value="ResolveUrl" priority="0" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFile">
+      <Item value="SaveAs" priority="0" />
+      <Item value="FileName" priority="1" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="0" />
+      <Item value="SelectedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessEntitySearch.Motorcycle">
+      <Item value="SaveMotorImage" priority="0" />
+      <Item value="GetApprovedImageUrl" priority="1" />
+      <Item value="GetApprovedMotor" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Image">
+      <Item value="ImageUrl" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpServerUtility">
+      <Item value="MapPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlImage">
+      <Item value="Src" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessSearch.ItemImage">
+      <Item value="MotorOrSpareId" priority="0" />
+      <Item value="ImageUrl" priority="0" />
+      <Item value="ImageFileName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessEntitySearch.Sparepart">
+      <Item value="GetApprovedSparepart" priority="2" />
+      <Item value="GetApprovedImageUrl" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:Downloads.aspx" caret="407" scrollPosition="0|0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:MasterPages/f:AdminAddis.master.cs" caret="451" scrollPosition="0|0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ManageSpareparts.aspx.cs" caret="495" scrollPosition="0|0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ManageMotorcycle.aspx.cs" caret="502" scrollPosition="0|0" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:SparepartCategory.cs" caret="568" scrollPosition="0|0" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:MotorcycleCategory.cs" caret="585" scrollPosition="0|6" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ManageMotorcycle.aspx" caret="4586" scrollPosition="0|42" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ManageSpareparts.aspx" caret="1530" scrollPosition="0|6" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="2930" scrollPosition="0|73" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx" caret="820" scrollPosition="0|6" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Motorcycley.cs" caret="4507" scrollPosition="0|81" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Sparepart.cs" caret="4198" scrollPosition="0|63" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="13226" scrollPosition="0|280" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx.cs" caret="845" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx" caret="1203" scrollPosition="0|16" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="636" scrollPosition="0|0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="2887" scrollPosition="0|16" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="435" scrollPosition="0|0" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="2936" scrollPosition="0|51" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="1203" scrollPosition="0|30" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="2011" scrollPosition="0|30" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Motorcycley.cs" caret="3500" scrollPosition="0|66" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="1610" scrollPosition="0|30" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="2305" scrollPosition="0|42" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="1814" scrollPosition="0|42" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx" caret="2560" scrollPosition="0|60" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx" caret="2324" scrollPosition="0|45" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx.cs" caret="3373" scrollPosition="0|73" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx" caret="2795" scrollPosition="0|63" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/d:Admin/f:ItemsImageUploader.aspx" caret="820" scrollPosition="0|6" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="11932" scrollPosition="0|340" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Motorcycley.cs" caret="3854" scrollPosition="0|72" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Motorcycley.cs" caret="4116" scrollPosition="0|81" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Motorcycley.cs" caret="4496" scrollPosition="0|81" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="11996" scrollPosition="0|260" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="12194" scrollPosition="0|260" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="15460" scrollPosition="0|329" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Sparepart.cs" caret="4209" scrollPosition="0|63" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Sparepart.cs" caret="3750" scrollPosition="0|63" />
+      <File id="123B66F7-AB2A-4FED-B225-2368753BA3B8/f:Sparepart.cs" caret="3940" scrollPosition="0|63" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx.cs" caret="535" scrollPosition="0|12" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="13178" scrollPosition="0|280" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx" caret="12920" scrollPosition="0|280" />
+      <File id="2E608842-F439-44B4-AD78-9155D059F1C8/f:Default.aspx.cs" caret="1462" scrollPosition="0|12" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

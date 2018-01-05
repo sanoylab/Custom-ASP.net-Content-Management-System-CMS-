@@ -1,0 +1,67 @@
+@charset "windows-1251";
+a{text-decoration:none; color:#006699;}
+a:hover{text-decoration:underline; color:#006699;}
+a:visited {text-decoration:none;color:#006699;}
+body{margin: 0px; padding: 0px; background: #596E9E}
+div,td{font-family: Tahoma; font-size: 11px; color: #28333A;
+	text-align: justify;
+}
+#lmenu{background-image: url(../images/lmenu-bg.gif);background-repeat: repeat-y;background-position: center;}
+
+#lmenu_items{background:url(../images/lmenu-bg-top.gif) no-repeat center top;padding-top: 14px;
+	height: 440px;
+}
+#lmenu_items a{display:block;color: #FFFFFF;text-decoration: none;font-size: 12px;font-style: italic;font-weight: bold;font-family: Arial, Helvetica, sans-serif;text-align: right;	padding-top: 2px;padding-right: 50px;padding-bottom: 11px;background-image: url(../images/lbullet.gif);background-repeat: no-repeat;	background-position: 30px 7px;}
+#lmenu_items a:hover{color:#9CC58D;}
+.t11{font-family: Tahoma; font-size: 11px; color: #28333A;}
+form{margin: 0px}
+.t10{font-family: Tahoma; font-size: 10px; color: #28333A;}
+.t10r{font-family: Tahoma; font-size: 10px; color: #FF0000;}
+
+.inp1{height: 19px; width: 179px; font-family: Arial; font-size: 10px; color: #28333A; border: #D4D4D4 1px solid;}
+.accordionHeader
+{
+    padding:5px 0 5px 10px; 
+    
+    cursor: pointer;
+    clear: both;
+	margin-top:5px;
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+	height:9px;
+}
+#language a{color:#FFF; text-decoration:none;font-size:12px; }
+#language a:hover{color: #FFF;text-decoration: underline;}
+.footer
+{ font-family:Arial; color:White; font-size:10px; text-align:center;
+}
+.footer a
+{ font-family:Arial; color:White; font-size:10px;
+}
+.accordionContent
+{
+  
+   background:url(../images/060508line.gif)  repeat-Y;
+    
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+    color:#666;
+    font-family:Verdana;
+    font-size:11px;
+   
+}
+.accordionContent a
+{
+   color:#CC3300;
+    font-size:11px;
+   
+}
+.accordionContent a:hover
+{
+   color:#CC3300;
+   text-decoration:none;
+   
+}
+

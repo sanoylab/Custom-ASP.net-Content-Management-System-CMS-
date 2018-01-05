@@ -1,0 +1,287 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Addis.master.cs" Inherits="MasterPages_Addis" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Css/style.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+-->
+
+
+/*** set the width and height to match your ../images **/
+
+#slideshow {
+    position:relative;
+    height:198px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+    </style>
+<script type="text/javascript" src="../Javascripts/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="../Rotator/imageflow.packed.js"></script>
+<script type="text/javascript">
+
+/*** 
+    Simple jQuery Slideshow Script
+    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+***/
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the ../images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the ../images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div>
+    <table  border="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td width="774">
+    <table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="208" valign="top">
+	    <table border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td height="89" width="205" align="center" style="background: #1D1D1D"><span class="style1">
+                        ADDIS TOWER BUSINESS CENTER</span></td>
+				</tr>
+				<tr>
+					<td height="191" align="center">
+						<table border="0" cellpadding="0" cellspacing="0" width="130">
+							<tr>
+								<td height="26"><div align="justify"><img src="../images/menu_ico.gif" width="8" height="7" border="0" alt=""> 
+                                    <a href="../Default.aspx">Home</a></div></td>
+						  </tr>
+							<tr><td style="background: #D3D6DB"><div align="justify"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></div></td></tr>
+							<tr>
+								<td height="26"><div align="justify"><img src="../images/menu_ico.gif" width="8" height="7" border="0" alt=""> 
+                                    <a href="../Pages/AddisTower.aspx?Id=3">Motorcycle</a></div></td>
+						  </tr>
+							<tr><td style="background: #D3D6DB"><div align="justify"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></div></td></tr>
+							<tr>
+								<td height="26"><div align="justify"><img src="../images/menu_ico.gif" width="8" height="7" border="0" alt=""> 
+                                    <a href="../Pages/AddisTower.aspx?Id=4">Spare Parts</a></div></td>
+						  </tr>
+							<tr><td style="background: #D3D6DB"><div align="justify"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></div></td></tr>
+							<tr>
+								<td height="26"><div align="justify"><img src="../images/menu_ico.gif" width="8" height="7" border="0" alt=""> 
+                                    <a href="../Pages/News.aspx">News</a></div></td>
+						  </tr>
+							<tr><td style="background: #D3D6DB"><div align="justify"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></div></td></tr>
+							<tr>
+								<td height="26"><div align="justify"><img src="../images/menu_ico.gif" width="8" height="7" border="0" alt=""> 
+                                    <a href="../Pages/Downloads.aspx?Id=1">Downloads</a></div></td>
+						  </tr>
+							<tr><td style="background: #D3D6DB"><div align="justify"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></div></td></tr>
+							<tr>
+								<td height="26"><div align="justify"><img src="../images/menu_ico.gif" width="8" height="7" border="0" alt=""> 
+                                    <a href="../Pages/PhotoGallery.aspx?Id=1">Photo Gallery</a></div></td>
+						  </tr>
+							<tr><td style="background: #D3D6DB"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td></tr>
+						</table>
+					</td>
+				</tr>
+				<tr><td><img src="../images/cn_top.gif" width="32" height="7" border="0" alt="" hspace="14"></td></tr>
+			</table>
+		</td>
+		<td width="1" style="background: #DBDBDB"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+		<td>
+			<div><a href="../Pages/AddisTower.aspx?Id=1"><img src="../images/m1.gif" width="176" height="89" border="0" alt=""></a><a href="../Pages/AddisTower.aspx?Id=2"><img src="../images/m2.gif" width="176" height="89" border="0" alt="" hspace="1"></a><a href="../Pages/ContactUs.aspx"><img src="../images/m3.gif" width="210" height="89" border="0" alt=""></a></div>
+			<div id="slideshow">
+            
+            <img src="../images/main.jpg" width="564" height="198" border="0" class="active" alt="">
+             <img src="../images/main2.jpg" width="564" height="198" border="0" alt="">
+             <img src="../images/main3.jpg" width="564" height="198" border="0" alt="">
+            
+            </div>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" style="background: url(../images/sn_top.gif) no-repeat bottom left">
+			<table border="0" cellpadding="0" cellspacing="0" width="205">
+				<tr>
+					<td height="26" style="background: #1E1E1E"><span class="style1"><img src="../images/spacer.gif" width="21" height="1" border="0" alt=""><img src="../images/sn_ico.gif" width="19" height="19" border="0" alt=""> 
+                        &nbsp;&nbsp;NEWS</span></td>
+				</tr>
+				<tr><td><img src="../images/cn_bot.gif" width="32" height="7" border="0" alt="" hspace="14"></td></tr>
+				<tr>
+					<td style="background: url(../images/bg1.gif) no-repeat left middle">
+
+                        &nbsp; &nbsp;   <asp:Repeater ID="rptContent" runat="server">
+                                            <HeaderTemplate>
+                                                <table width="90%" align="center">
+                                            </HeaderTemplate>
+                                            <ItemTemplate>
+                                                <tr>
+                                                    <td>
+                                                        <img src="../images/arrow.gif" />
+                                                    </td>
+                                                    <td>
+                                                        <a href='../Pages/Detail.aspx?type=N&amp;nid=<%# Eval("Id")%>'>
+                                                            <%# Eval("Title")%>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        &nbsp;
+                                                    </td>
+                                                    <td>
+                                                        <%# Eval("HomePageSummary")%>
+                                                    </td>
+                                                </tr>
+                                            </ItemTemplate>
+                                            <SeparatorTemplate>
+                                            </SeparatorTemplate>
+                                            <FooterTemplate>
+                                                </table></FooterTemplate>
+                                        </asp:Repeater>
+
+					</td>
+				    <td>
+                        &nbsp;</td>
+				</tr>
+				
+				
+				
+			</table>
+		</td>
+		<td style="background: #DBDBDB"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+		<td valign="top" >
+			
+			<table width="98%" align="center">
+		<tr><td></td></tr>
+		<tr><td>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </td></tr>
+		<tr><td>
+            &nbsp;</td></tr>
+		</table>
+			
+			
+		    </td>
+	</tr>
+	<tr>
+		<td style="background: #242424"><span class="style1"><img src="../images/spacer.gif" width="21" height="1" border="0" alt=""><img src="../images/sn_ico.gif" width="19" height="19" border="0" alt="">&nbsp;&nbsp;PHOTO 
+            GALLERY</span></td>
+		<td style="background: #DBDBDB"> <img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+		<td>
+			
+		</td>
+	</tr>
+	<tr>
+		<td valign="top">
+			<div><img src="../images/sn_bot.gif" width="32" height="7" border="0" alt="" hspace="14"></div>
+			<div style="padding: 12px 0 10px 14px"><table border="0" cellpadding="0" cellspacing="0">
+				
+			   	<tr>
+			   		<td align="center">
+                    
+                    <img src="../images/header-img3.jpg" width="158" height="95" class="active" />
+                    
+                    
+                    </td>
+			   	</tr>
+				<tr>
+					<TD><div align="right">More...</div></TD>
+				</tr>
+				
+			</table></div>
+		
+		</td>
+		<td style="background: #DBDBDB"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+		<td height="89" width="581" valign="top">
+		
+   </td>
+	</tr>
+	<tr>
+		<td colspan="3" style="background: #A0A0A0"><img src="../images/spacer.gif" width="1" height="13" border="0" alt=""></td> 	</tr> 	<tr> 		<td align="center" height="65">
+                                &nbsp;</td> 		<td style="background: #DBDBDB"><a href="../images/img.html"><img src="../images/spacer.gif" width="1" height="1" border="0" alt=""></a></td> 		<td>			<div style="padding-left: 25px">
+		<table>
+		<tr>
+		  <td><a href="../Default.aspx">Home</a></td>
+		  <td>|</td>
+		  <td><a href="../Pages/AddisTower.aspx?Id=1">About Us</a></td>
+		  <td>|</td>
+		  <td><a href="../Pages/News.aspx">News</a></td>
+		  <td>|</td>
+		  <td><a href="../Pages/FAQ.aspx">FAQ</a></td>
+		  <td>|</td>
+		  <td><a href="../Pages/SiteMap.aspx">Sitemap</a></td>
+		  <td>|</td>
+		  <td><a href="../Pages/Feedback.aspx">Feedback</a></td>
+		  <td>|</td>
+		</tr>
+		<tr><td colspan=12>Copyright &copy; <asp:Literal ID="litYear" runat="server"></asp:Literal>. Site Designed & Developed by: </td></tr>
+		</table>
+        </div>
+		</td>
+	</tr>
+</table>
+
+    
+    </td>
+  </tr>
+</table>
+    
+    </div>
+    </div>
+    </form>
+</body>
+</html>

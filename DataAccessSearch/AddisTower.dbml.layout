@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AddisTower">
+  <DataContextMoniker Name="/AddisTowerDataContext" />
+  <nestedChildShapes>
+    <classShape Id="56f1a343-86bf-462b-88e6-3c329090dc30" absoluteBounds="3.75, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/AddisTowerDataContext/MotorcycleCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf56b0cb-8284-46c3-8940-346cecab2911" absoluteBounds="3.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cb549f0b-8f80-469d-91f1-faab4d5aea3e" absoluteBounds="3.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/AddisTowerDataContext/SparepartCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc9a1a8b-de9f-43ca-a05f-d7b00ad4eb63" absoluteBounds="3.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7ae12fe-0849-4c04-8790-5e163e1fe84f" absoluteBounds="0.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/AddisTowerDataContext/Motorcycle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8d2ef49d-e5da-4fda-8588-1170352ccf5a" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="186a75ae-332f-4fd0-8998-1e9dac07bd9a" absoluteBounds="0.75, 4.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/AddisTowerDataContext/Sparepart" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25beab03-c27c-4d6d-97bc-55fefa4cd22f" absoluteBounds="0.765, 5.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="14f1bd36-81ae-4f75-a7c1-6e2dd6362a20" absoluteBounds="7.625, 3.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/AddisTowerDataContext/ItemImage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="696cea3f-cc20-45ae-9117-6575e4119d7f" absoluteBounds="7.64, 3.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="System.WorkflowServices, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="a9b236a8-3698-44f2-8b12-18ea64c6df5f" Timestamp="633802652428770876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="fcbede9b-2300-4d37-90dc-4a266133470b" Timestamp="633802652813154876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="1eaa5f56-c1aa-47e0-9ef7-097c6c90981b" Timestamp="633802652854494876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="FredCK.FCKeditorV2, Version=2.1.1887.26124, Culture=neutral, PublicKeyToken=4f86767c9b519a06" Image="068df05b-82a9-402e-9632-d001d175c434" Timestamp="632453958000000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="f0b2e531-078e-4716-81c7-a183544d398a" Timestamp="633802652814870876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="AjaxControlToolkit, Version=1.0.61214.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" Image="ad44d393-06e5-45e3-8d3f-a97d2e7c666c" Timestamp="633016819520000000" />
+  <Assembly Name="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="f521a0a9-600c-4299-b2bd-e94d78c847f7" Timestamp="634208778752710559" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="System.ServiceModel.Web, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="2f86dd90-29c5-46b2-8232-569e3c96fd77" Timestamp="633802652421906876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="5f9076ec-111e-42a1-9e62-11422ea7d190" Timestamp="633802652351550876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="0a1f4709-af21-47e2-8e9e-59ef4e7b7a4b" Timestamp="633802652349834876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="System.IdentityModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="e61013d0-e180-4db9-8f77-4bf931dffd19" Timestamp="633802652336730876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="System.Data.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="5c7644d2-272a-441d-8aae-8c9ac579e593" Timestamp="633802652824542876" XmlDocIndexTimestamp="633872764880000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="c7085464-6808-4f2d-92e6-b821f33c4975" Timestamp="633559634920000000" XmlDocIndexTimestamp="633559634920000000" />
+  <Assembly Name="DevExpress.Web.ASPxGridView.v7.3, Version=7.3.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" Image="b120b8ca-8e50-495a-b0cb-652cdacbafb7" Timestamp="633308247758983074" XmlDocIndexTimestamp="634547812453823700" />
+  <Assembly Name="DevExpress.Data.v7.3, Version=7.3.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" Image="104d6818-6741-4ef0-afec-b9db8bff45a7" Timestamp="633308245690103306" XmlDocIndexTimestamp="634547812452327210" />
+  <Assembly Name="DevExpress.Web.v7.3, Version=7.3.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" Image="98cb7c48-fe77-4c5e-a5ec-df417b23ea5d" Timestamp="633308246724621314" XmlDocIndexTimestamp="634547812454621828" />
+  <Assembly Name="DevExpress.Web.ASPxEditors.v7.3, Version=7.3.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" Image="2e6813a1-47a1-4034-b5d9-25f0877c6929" Timestamp="633308246759308370" XmlDocIndexTimestamp="634547812453524402" />
+  <Assembly Name="App_Licenses, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Image="82f69716-f0b3-4322-9f27-eb000788548a" Timestamp="634547938310864472" />
+</Assemblies>
